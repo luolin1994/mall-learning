@@ -7,7 +7,8 @@
 </p>
 
 ## 简介
-mall学习教程，架构、业务、技术要点全方位解析。mall项目（25k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis3.2、Mongodb3.2、Mysql5.7等技术，采用Docker容器化部署。
+mall学习教程，架构、业务、技术要点全方位解析。mall项目（39k+star）是一套电商系统，使用现阶段主流技术实现。  
+涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
 
 ## 项目地址
 - 后台项目：[https://github.com/macrozheng/mall](https://github.com/macrozheng/mall)
@@ -61,6 +62,9 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [手把手教你搞定权限管理，结合Spring Security实现接口的动态权限控制！](technology/permission_back.md)
 - [手把手教你搞定权限管理，结合Vue实现菜单的动态权限控制！](technology/permission_front.md)
 - [SpringBoot中处理校验逻辑的两种方式，真的很机智！](technology/springboot_validator.md)
+- [使用Redis+AOP优化权限管理功能，这波操作贼爽！](technology/redis_permission.md)
+- [Elasticsearch项目实战，商品搜索功能设计与实现！](technology/product_search.md)
+- [RabbitMQ实现延迟消息居然如此简单，整个插件就完事了！](technology/rabbitmq_delay.md)
 
 ## 部署篇
 > mall开发及生产环境的搭建
@@ -73,6 +77,7 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [mall-swarm在Windows环境下的部署](deploy/mall_swarm_deploy_windows.md)
 - [mall-swarm在Linux环境下的部署（基于Docker容器）](deploy/mall_swarm_deploy_docker.md)  
 - [微服务架构下的自动化部署，使用Jenkins来实现！](deploy/mall_swarm_deploy_jenkins.md)  
+- [我常用的自动化部署技巧，贼好用，推荐给大家！](technology/springboot_auto_deploy.md)
 
 
 ## 进阶篇
@@ -97,6 +102,7 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [Spring Cloud Alibaba：Nacos 作为注册中心和配置中心使用](cloud/nacos.md)
 - [Spring Cloud Alibaba：Sentinel实现熔断与限流](cloud/sentinel.md)
 - [使用Seata彻底解决Spring Cloud中的分布式事务问题](cloud/seata.md)
+- [微服务权限终极解决方案，Spring Cloud Gateway + Oauth2 实现统一认证和鉴权！](cloud/gateway_oauth2.md)
 
 ## 参考篇
 > mall相关技术的使用教程
@@ -115,6 +121,15 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [Github标星19K+Star，10分钟自建对象存储服务！](reference/minio.md)
 - [MySql主从复制，从原理到实践！](reference/mysql_master_slave.md)
 - [你还在代码里做读写分离么，试试这个中间件吧！](reference/gaea.md)
+- [Spring Data Redis 最佳实践！](reference/spring_data_redis.md)
+- [Docker环境下秒建Redis集群，连SpringBoot也整上了！](reference/redis_cluster.md)
+- [Elasticsearch快速入门，掌握这些刚刚好！](reference/elasticsearch_start.md)
+- [MongoDB快速入门，掌握这些刚刚好！](reference/mongodb_start.md)
+- [Github标星34K+Star，这款开源项目助你秒建Git服务！](reference/gogs_start.md)
+- [连RabbitMQ的5种核心消息模式都不懂，也敢说自己会用消息队列！](reference/rabbitmq_start.md)
+- [你居然还去服务器上捞日志，搭个日志收集系统难道不香么！](reference/mall_elk_advance.md)
+- [性能优越的轻量级日志收集工具，微软、亚马逊都在用！](reference/efk_fluent.md)
+- [听说你的JWT库用起来特别扭，推荐一款贼好用的！](reference/jose_jwt_start.md)
 
 ## 工具篇
 > 一些常用开发工具的使用
@@ -128,6 +143,11 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [推荐一个项目管理工具，落地基于Scrum的敏捷开发！](reference/zentao.md)
 - [IDEA中创建和启动SpringBoot应用的正确姿势](reference/idea_springboot.md)
 - [盘点下我用的顺手的那些工具！](reference/my_tools.md)
+- [我用起来顺手的数据库设计工具，这次推荐给大家！](reference/navicat_designer.md)
+- [我常用的IDEA插件大公开，个个是精品！](reference/idea_plugins.md)
+- [IDEA同款数据库管理工具，提示太全了，用起来贼香！](reference/datagrip_start.md)
+- [写了100多篇原创文章，我常用的在线工具网站推荐给大家！](reference/my_web_tools.md)
+- [线上项目出BUG没法调试？推荐这款阿里开源的诊断神器！](reference/arthas_start.md)
 
 ## 公众号
 
